@@ -1,5 +1,7 @@
+#include <vector>
+#include <iostream>
 
-Class KaryHeap {
+class KaryHeap {
   private: 
 
     std::vector<int> heap;

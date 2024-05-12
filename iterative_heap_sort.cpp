@@ -26,10 +26,15 @@ int main() {
         std::cout << arr[i] << " ";
     std::cout << std::endl;
 
+    iterativeHeapSort(arr1, size1);
+
+
     std::cout << "Sorted array: ";
     for (int i = 0; i < size; ++i)
         std::cout << arr1[i] << " ";
     std::cout << std::endl;
+
+    iterativeHeapSort(arr2, size2);
 
     std::cout << "Sorted array: ";
     for (int i = 0; i < size; ++i)
